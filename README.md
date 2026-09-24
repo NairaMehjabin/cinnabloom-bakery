@@ -53,15 +53,18 @@ Make sure you have Node.js (v18 or higher) and Git installed on your system.
 ```bash
 git clone [https://github.com/NairaMehjabin/cinnabloom-bakery.git](https://github.com/NairaMehjabin/cinnabloom-bakery.git)
 cd cinnabloom-bakery
+
 2. Install Dependencies
 Bash
 npm install
+
 3. Environment Configuration
 Create a .env.local file in the root directory of the project and add your environment variables:
 GEMINI_API_KEY=...
 NEXT_PUBLIC_GOOGLE_CLIENT_ID=...
 NEXT_PUBLIC_API_URL=...
 NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=...
+
 4. Run the Development Server
 Bash
 npm run dev
